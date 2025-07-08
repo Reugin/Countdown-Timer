@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="styles.css">
+    </link>
     <title>Countdown Timer</title>
 </head>
-<body>
-    <h1>Countdown timer</h1>
-    <label for="hours">select time</label>
-    <input id="input" type="datetime-local"></input>
-    <button id="startbutton">start</button>
 
-    <span id="result"></span>
-    
+<body>
+    <div class="container">
+        <h1>COUNTDOWN</h1>
+        <label for="hours">Select Date and Time</label>
+        <input id="input" type="datetime-local"></input>
+        <button id="startbutton">start</button>
+        <div id="result">
+            <p id="result_day"></p>
+            <p id="result_hour"></p>
+            <p id="result_min"></p>
+            <p id="result_sec"></p>
+        </div>
+    </div>
+
+
     <script src="./script.js"></script>
 </body>
+
 </html>

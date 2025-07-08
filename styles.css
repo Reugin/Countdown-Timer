@@ -1,4 +1,52 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100v;
+    background: linear-gradient(#70f5ea, #5ed47b);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: #004a6d;
+    text-shadow: 0 1px 10px #ffffff;
+}
+
+.container label {
+    font-family: system-ui;
+    font-size: 30px;
+    color: #004a6d;
+    text-shadow: 0 1px 10px #94cbff;
+}
+
+.container input,
+.container button {
+    padding: 5px 10px;
+    border-radius: 20PX;
+    border: 2px black;
+    margin: 5%;
+}
+
+button {
+    background: #004a6d;
+    color: #ffffff;
+    font-size: larger;
+}
+
+#result {
+    display: flex;
+    font-family: fantasy;
+    font-size: 70px;
+    color: #004a6d;
+    text-shadow: 0 1px 10px #ffffff;
 }
